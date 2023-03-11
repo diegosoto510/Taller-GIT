@@ -1,0 +1,123 @@
+diego510@DESKTOP-SQ0RAUF:~$ history
+    1  sudo apt install unzip
+    2  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    3  unzip awscliv2.zip
+    4  sudo ./aws/install
+    5  aws --version
+    6  curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+    7  az --version
+    8  wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+    9  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+   10  sudo apt update && sudo apt install terraform
+   11  terraform --version
+   12  cd
+   13  ls
+   14  ls-ll
+   15  pwd
+   16  mkdir ICESI
+   17  cd ~/ICESI
+   18  git git@github.com:diegosoto510/icesi_ml.git
+   19  cd ~/.ssh/
+   20  git clone git@github.com:diegosoto510/icesi_ml.git
+   21  ssh-keygen -t ed25519 -C "soto.diego@correounivalle.edu.co
+   22  "
+   23  git clone git@github.com:diegosoto510/icesi_ml.git
+   24  ls -al ~/.ssh
+   25  ssh-keygen -t ed25519 -C "soto.diego@correounivalle.edu.co"
+   26  cat ~/.ssh/id_25519
+   27  cd
+   28  pwd
+   29  cat ~/.ssh/id_ed25519
+   30  cat ~/.ssh/id_ed25519.pub
+   31  cd
+   32  ls
+   33  ll
+   34  cd ICESI/
+   35  ll
+   36  mkdir repo_ml
+   37  cd ICESI/repo_ml/
+   38  cd repo_ml
+   39  git init
+   40  ll
+   41  git remote add origin git@github.com:diegosoto510/icesi_ml.git
+   42  git remote -v
+   43  git pull --allow-unrealated-histories
+   44  git pull --allow-unrelated-histories
+   45  git branch --set-upstream-to=origin/master master
+   46  git branch --set-upstream-to=origin/main master
+   47  git branch
+   48  git pull origin main
+   49  git branch
+   50  git status
+   51  git add.
+   52  git add .
+   53  git status
+   54  git comit -m "Add several files of digital step"
+   55  git commit -m "Add several files of digital step"
+   56  git config --global user.email "soto.diego@correounivalle.edu.co"
+   57  git commit -m "Add several files of digital step"
+   58  cd ICESI/repo_ml/
+   59  git commit -m "Add several files of digital step"
+   60  git comit -m "Add several files of digital step"
+   61  git commit -m "Add several files of digital step"
+   62  git config --global user.email "soto.diego@correounivalle.edu.co"
+   63  git config --global user.name "diegosoto510"
+   64  git commit -m "Add several files of digital step"
+   65  git push
+   66  git push --set-upstream origin master
+   67  git remote -v
+   68  git status
+   69  git logx
+   70  git fetch
+   71  git logx
+   72  git tag -a v1.0.0 -m "Version Base v1.0.0.0"
+   73  git show v1.0.0.0
+   74  git show v1.0.0
+   75  git push --tags
+   76  clear
+   77  git branch
+   78  git chekout -v feature/ejemplo_rama
+   79  git checkout -b feature/ejemplo_rama
+   80  git branch
+   81  code .
+   82  tree
+   83  code .
+   84  sudo apt install tree
+   85  tree
+   86  git add .
+   87  git status
+   88  git branch
+   89  git status
+   90  git commit -m "Se adiciona folders terraform y test y huellas"
+   91  git push
+   92  touch terraform/README.md
+   93  touch test/README.md
+   94  git status
+   95  git add .
+   96  git status
+   97  git commit -m "Se adiciona folders terraform y test y huellas"
+   98  git push
+   99  tree
+  100  git branch
+  101  git merge feature/ejemplo_rama
+  102  tree
+  103  git checkout master
+  104  git branch
+  105  tree
+  106  git merge feature/ejemplo_rama
+  107  tree
+  108  git status
+  109  git push
+  110  tree
+  111  nano
+  112  git checkout feature/ejemplo_rama
+  113  git branch
+  114  tree
+  115  nano terraform
+  116  git status
+  117  git diff
+  118  git add.
+  119  git add .
+  120  git commit -m "Add comments to Readme.md on terraform folder"
+  121  git push
+  122  history
