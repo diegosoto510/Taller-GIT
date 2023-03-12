@@ -1,0 +1,35 @@
+# Codigos para el Taller GIT
+  127  cd ICESI
+  128  mkdir Taller-GIT
+  129  cd Taller-GIT
+  130  git git@github.com:diegosoto510/Taller-GIT.git
+  131  git init
+  132  git remote add origin git@github.com:diegosoto510/Taller-GIT.git
+  133  git remote -v
+  134  git pull --allow-unrelated-histories
+  135  ll
+  136  git pull --allow-unrelated-histories
+  137  git branch --set-upstream-to=origin/main master
+  138  git branch
+  139  git branch --set-upstream-to=origin/master master
+  140  git branch
+  141  git status
+  142  git add .
+  143  git status
+  144  git comit -m "Version 1 de los codigos para el Taller GIT"
+  145  git commit -m "Version 1 de los codigos para el Taller GIT"
+  146  git push
+  147  git push --set-upstream origin master
+  148  git diff
+  149  git add .
+  150  git status
+  151  git commit -m "Version 2, con actualización de los codigos para el Taller GIT"
+  152  git push
+  153  git status
+  154  git add .
+  155  git push
+  156  git status
+  157  git commit -m "Archivo eliminado"
+  158  git status
+  159  history
+  160  nano Codigos Taller-GIT.txt
